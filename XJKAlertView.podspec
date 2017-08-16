@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/MoreToMost/XJKAlertView"
   s.license      = "MIT"
   s.author             = { "Jack" => "xjk2365549967@163.com" }
-  s.source       = { :git => "ttps://github.com/MoreToMost/XJKAlertView.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/MoreToMost/XJKAlertView.git", :tag => "1.0.0" }
   s.source_files  = "XJKAlertView/XJKAlertView/*"
 end
