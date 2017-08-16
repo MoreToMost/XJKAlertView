@@ -9,6 +9,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/MoreToMost/XJKAlertView"
   s.license      = "MIT"
   s.author             = { "Jack" => "xjk2365549967@163.com" }
-  s.source       = { :git => "https://github.com/MoreToMost/XJKAlertView.git", :tag => "1.0.0" }
+  s.platform     = :ios, "8.0"
+  s.source       = { :git => "https://github.com/MoreToMost/XJKAlertView.git", :tag => "v1.0.0" }
   s.source_files  = "XJKAlertView/XJKAlertView/*"
+  s.requires_arc = true
 end
