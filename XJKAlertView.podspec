@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MoreToMost/XJKAlertView.git", :tag => "v1.0.1" }
   s.source_files  = "XJKAlertView/XJKAlertView/*"
   s.requires_arc = true
+  s.frameworks = "Foundation"
 end
